@@ -24,3 +24,17 @@ def remove_constant():
 
 if __name__ == '__main__':
     app.run()
+
+"""
+fetch('http://localhost:5000/')
+  .then(response => response.json())
+  .then(data => console.log(data))
+######################################
+fetch('http://localhost:5000/', { method: 'POST' })
+  .then(response => response.json())
+  .then(data => console.log(data))
+######################################
+fetch('http://localhost:5000/', { method: 'DELETE' })
+  .then(response => response.json())
+  .then(data => console.log(data))
+"""
